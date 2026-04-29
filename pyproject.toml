@@ -1,0 +1,19 @@
+# ESTE REPOSITORIO USA `Semantic Versioning`
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isonavax"
+version = "0.1.0"
+description = "Tools for ISO inspection and manipulation."
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "pycdlib",
+    "tabulate"
+]
+
+[project.scripts]
+isonavax = "isonavax.main:main"
