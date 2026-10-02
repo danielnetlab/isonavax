@@ -97,7 +97,7 @@ def main():
 
     parser.add_argument("iso", help=".iso file path")
     parser.add_argument(
-        "--get-files", "-g", action="store_true", help="extrat files inside the ISO"
+        "--get-files", "-g", action="store_true", help="list files inside the ISO"
     )
     parser.add_argument(
         "--extensions", "-e", nargs="+", help="extension to search inside the ISO"
